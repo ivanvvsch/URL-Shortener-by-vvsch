@@ -23,7 +23,7 @@ def makeShortLink():
     label3.pack()
     pyperclip.copy(shortLink)
 
-btn1 = Button(window, bg = 'red', text = 'Сократить ссылку', command = makeShortLink)
+btn1 = Button(window, bg = 'grey', text = 'Сократить ссылку', command = makeShortLink)
 btn1.pack()
 
 window.mainloop()
